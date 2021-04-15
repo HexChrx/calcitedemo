@@ -7,10 +7,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Objects;
 
-/**
- * @author ruixiang.crx
- * @date 2021/4/14
- */
+
 public class CsvEnumerator<E> implements Enumerator {
     private E current;
     private BufferedReader reader;

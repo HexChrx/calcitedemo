@@ -12,10 +12,7 @@ import java.net.URL;
 import java.util.Map;
 import java.util.Objects;
 
-/**
- * @author ruixiang.crx
- * @date 2021/4/14
- */
+
 public class CsvSchema extends AbstractSchema {
 
     private Map<String, Table> tableMap;

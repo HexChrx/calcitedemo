@@ -19,12 +19,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * @author ruixiang.crx
- * @date 2021/4/14
- */
+
 public class CsvTable extends AbstractTable implements ScannableTable {
-    private Source source;
+    private final Source source;
 
     public CsvTable(Source source) {
         this.source = source;
